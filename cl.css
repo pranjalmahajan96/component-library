@@ -1,6 +1,9 @@
 :root{
     --primary-color: #cfeefb;
     --grey-color: gray;
+    --green-success:  rgb(27, 170, 27);
+    --red-failed:rgb(253, 37, 37);
+    --yellow-warning:rgb(241, 241, 45);
 
 }
 
@@ -121,8 +124,20 @@ aside{
 }
 
 .alert{
-    border: 1px solid ;
+    border: 1px solid;
     padding:0.5rem;
     margin: 0.5rem;
     
+}
+
+.alert-success{
+    background-color: var(--green-success);
+}
+
+.alert-failed{
+    background-color: var(--red-failed);
+}
+
+.alert-warning{
+    background-color: var(--yellow-warning);
 }
