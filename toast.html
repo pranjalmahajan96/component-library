@@ -100,8 +100,24 @@
             </li>
         </aside>
         <div>
-           <h2>TOAST (TODO)</h2>
+           <h2>TOAST</h2>
+           <button class="btn btn-filled" onclick="showToast()">Show Toast</button>
+           <div id="myToast">
+               The Toast Message!
+           </div>
         </div>
    </div> 
+
+   <script>
+      function showToast(){
+        var toast = document.getElementById("myToast");
+       
+       toast.className = "show";
+       
+       setTimeout(function(){ x.className = x.className.replace("show", ""); }, 3000);
+      }
+      
+   </script>
+
 </body>
 </html>
