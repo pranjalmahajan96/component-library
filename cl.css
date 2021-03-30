@@ -26,12 +26,30 @@ aside{
     grid-template-columns: 1fr 4fr;
 }
 
+.wrapper-input{
+    border: 0.5px solid black;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
 .center{
     text-align: center;
 }
 
 .gray{
     color: var(--grey-color);
+}
+
+input{
+    margin: 0.5rem;
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.05rem;
 }
 
 .list-non-bullet{
