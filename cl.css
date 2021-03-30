@@ -14,11 +14,11 @@ body{
 
 aside{
     width: 20%;
+    margin-right: 25px;
 }
 
 .wrapper{
     display: flex;
-   
 }
 
 .wrapper-nav{
@@ -71,7 +71,6 @@ input{
     background-color: var(--primary-color);
     /* color: white; */
     padding: 1rem;
-    border-bottom-left-radius: 1rem;
 }
 
 .navigation .nav-brand{
@@ -159,6 +158,10 @@ input{
 .card .badge{
     position: absolute;
     top: 2rem;
+}
+
+.round{
+    border-radius: 25px;
 }
 
 .alert{
