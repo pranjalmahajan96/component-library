@@ -1,5 +1,5 @@
-/* :root{
-    --primary-color: #FBCFE8; */
+:root{
+    --primary-color: #cfeefb;
 }
 
 body{
@@ -58,12 +58,12 @@ body{
  .link-primary{
      background-color: var(--primary-color);
      border-radius: 0.5rem;
-     /* color: white */
+     color: white
 
  }
 
  .link-secondary{
-     /* color: var(--primary-color); */
+     color: var(--primary-color);
      border-radius: 0.5rem;
      border: 1px solid var(--primary-color)
  }
@@ -73,24 +73,36 @@ body{
      
  }
 
- .footer{
-     background-color: var(--primary-color);
-     padding: 2rem 0rem;
-     text-align: center;
-     /* color: white; */
-     border-top-right-radius: 1rem;
-     height: min-content;
- }
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+}
 
- .footer .footer-header{
-     font-weight: bold;
-     font-size: large;
- }
+.card{
+    display: flex;
+    padding: 1rem;
+    border: 1px solid black;
+    flex-direction: column;
+   max-width: 250px;
+   /* justify-content: space-between; */   
+}
 
- .footer .link{
-     /* color: white; */
- }
+.card > p{
+    flex-grow: 1;
+}
 
-.footer .ul{
-padding-inline-start: 0px;
+.card .thumbnail{
+    position: relative;
+}
+
+.clearBtn{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
+.card .overlay{
+    position: absolute;
+    top:0.1rem;
+    left: 0.4rem;
 }
