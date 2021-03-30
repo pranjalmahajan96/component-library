@@ -100,8 +100,30 @@
             </li>
         </aside>
         <div>
-           <h2>MODAL(TODO)</h2>
+           <h2>MODAL</h2>
+           <button id="modalBtn" class="btn btn-filled" onclick="showModal()">Open Modal</button>
+
+           <div id="myModal" class="modal">
+               <div class="modal-content">
+                    <p>Modal says HI!<span id="close" onclick="closeModal()" style="cursor: pointer;">X</span></p>
+               </div>
+           </div>
+
         </div>
    </div> 
+   <script>
+       var modal = document.getElementById("myModal");
+       var btn = document.getElementById("modalBtn");
+       var close = document.getElementsById("close");
+
+     function showModal(){
+           modal.style.display="block";
+       }
+
+    function closeModal(){
+           modal.style.display="none";
+       }
+
+   </script>
 </body>
 </html>
