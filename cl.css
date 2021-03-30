@@ -170,15 +170,14 @@ input{
     cursor: pointer;
 }
 
-.btn-primary{
+.btn-filled{
     background-color: DodgerBlue;
     color: white;
 }
 
-/* .btn-primary:hover{
-    /* box-shadow: 5px 10px #888888; */
-    transform: translateY(-0.25em);
-} */
+.btn-outline{
+    background-color: white;
+}
 
 .btn-link{
     font-size: large;
