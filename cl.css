@@ -3,7 +3,7 @@
     --grey-color: gray;
     --green-success:  rgb(27, 170, 27);
     --red-failed:rgb(253, 37, 37);
-    --yellow-warning:rgb(241, 241, 45);
+    --yellow-warning:#ff9800;
 
 }
 
@@ -145,7 +145,7 @@ input{
     border: 1px solid;
     padding:0.5rem;
     margin: 0.5rem;
-    
+    color: whitesmoke;
 }
 
 .alert-success{
