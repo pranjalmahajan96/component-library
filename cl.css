@@ -111,6 +111,13 @@ input{
     flex-wrap: wrap;
 }
 
+.avatar{
+    vertical-align: middle;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+
 .badge{
     border: 0.5px solid red;
     background-color: red;
@@ -170,8 +177,13 @@ input{
     top: 2rem;
 }
 
-.round{
-    border-radius: 25px;
+.image-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.image-round{
+    border-radius: 50%;
 }
 
 .alert{
