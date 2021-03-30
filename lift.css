@@ -13,8 +13,13 @@ body{
 }
 
 aside{
-    width: 20%;
+    border-right: 1px solid #fff;
     margin-right: 25px;
+    position: fixed;
+    left: 0;
+    top: 55px;
+    width: 400px;
+    height: 100vh;
 }
 
 .wrapper{
