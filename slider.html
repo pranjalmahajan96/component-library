@@ -100,8 +100,22 @@
             </li>
         </aside>
         <div>
-           <h2>SLIDER (TODO)</h2>
+           <h2>SLIDER </h2>
+           <input id="slider" type="range" min="0" max="100" value="50"  />
+           <p>Value: <span id="output"></span> </p>
         </div>
    </div> 
+
+   <script>
+       var slider = document.getElementById("slider");var output = document.getElementById("output");
+
+       output.innerHTML = slider.value;
+
+      slider.oninput = function(){
+           output.innerHTML = this.value;
+        }
+   </script>
+
 </body>
+
 </html>
