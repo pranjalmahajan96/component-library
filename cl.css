@@ -175,16 +175,29 @@ input{
     color: white;
 }
 
-.btn-primary:hover{
+/* .btn-primary:hover{
     /* box-shadow: 5px 10px #888888; */
     transform: translateY(-0.25em);
-}
+} */
 
 .btn-secondary{
     background-color: white;
     color: var(--red-failed);
 }
 
-.btn-secondary:hover{
+/* .btn-secondary:hover{
     box-shadow: 5px 10px #888888;;
+} */
+
+.btn-link{
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.btn-link:hover{
+    font-weight: bold;
 }
