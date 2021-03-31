@@ -199,9 +199,11 @@ input{
 }
 
 .card .overlay{
+    font-weight: bolder;
     position: absolute;
-    top:0.1rem;
-    left: 0.4rem;
+    top: 0.5rem;
+    left: 0.5rem;
+    color: goldenrod;
 }
 
 .card .badge{
