@@ -192,6 +192,11 @@ input{
     position: relative;
 }
 
+.card-img{
+    border: 00.5px solid black;
+    width: 100%;
+}
+
 .clearBtn{
     position: absolute;
     top: 0rem;
