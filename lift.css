@@ -26,17 +26,21 @@ body{
 
 aside{
    width: 20%;
-    margin-right: 25px;
-   
+   margin-right: 25px;
+   /* position: fixed;
+   top: 0rem;    */
+   margin-top: 5rem;
 }
 
 .wrapper{
     display: flex;
+    margin-top: 5rem;
 }
 
 .wrapper-nav{
     display: grid;
     grid-template-columns: 1fr 4fr;
+    position:relative;
 }
 
 .wrapper-input{
@@ -86,6 +90,18 @@ input{
     display: flex;
     align-items: center;
     width: 100%;
+    position: fixed;
+    top: 0rem;
+    margin:0 0 0.5rem 0;
+}
+
+.navigation-eg{
+    background-color: var(--primary-color);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin:0 0 0.5rem 0;
 }
 
 .navigation .nav-brand{
