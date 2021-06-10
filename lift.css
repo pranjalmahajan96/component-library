@@ -17,7 +17,6 @@ body{
     height: 100%;
     margin:10px;
     padding: 2rem;
-    text-align: center;
 }
 
 .code{
@@ -359,7 +358,7 @@ input{
     border: 1px solid black;
     height: 200px;
     width: 200px;
-    text-align: center;
+    
   }
 
   .grid2-2{
@@ -367,13 +366,8 @@ input{
     border: 1px solid black;
     height: 200px;
     width: 200px;
-    text-align: center;
+    
   }
-
-
-
-
-
 
 .modal{
     display: none;
