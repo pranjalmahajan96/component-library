@@ -336,6 +336,27 @@ input{
       grid-template-columns: 1fr auto auto;
   }
 
+  .grid2-1{
+    background-color: red;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+  }
+
+  .grid2-2{
+    background-color: blue;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    text-align: center;
+  }
+
+
+
+
+
+
 .modal{
     display: none;
     position: fixed;
