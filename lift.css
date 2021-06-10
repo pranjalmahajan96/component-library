@@ -93,6 +93,7 @@ input{
     position: fixed;
     top: 0rem;
     margin:0 0 0.5rem 0;
+    z-index: 1;
 }
 
 .navigation-eg{
