@@ -272,6 +272,10 @@ input{
     cursor: pointer;
 }
 
+.btn:hover{
+    transform: scale(1.2);
+}
+
 .btn-filled{
     background-color: DodgerBlue;
     color: white;
