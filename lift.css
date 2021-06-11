@@ -285,6 +285,10 @@ input{
     background-color: white;
 }
 
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+
 .btn-link{
     font-size: large;
     border: none;
