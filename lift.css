@@ -33,6 +33,7 @@ aside{
 
 .link-aside {
     color: var(--primary-color);
+    font-weight: bolder;
 }
 
 .wrapper{
