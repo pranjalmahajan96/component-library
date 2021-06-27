@@ -311,7 +311,7 @@ input{
 }
 
 .btn-icon{
-    background-color: DodgerBlue; 
+    background-color: var(--primary-color); 
     border: none; 
     color: white; 
     padding: 12px 16px; 
