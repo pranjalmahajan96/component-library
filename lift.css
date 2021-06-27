@@ -100,15 +100,6 @@ input{
     z-index: 1;
 }
 
-.navigation-eg{
-    background-color: var(--primary-color);
-    padding: 0.25rem;
-    display: flex;
-    align-items: center;
-    width: 100%;
-    margin:0 0 0.5rem 0;
-}
-
 .navigation .nav-brand{
     font-weight: bold;
     font-size: 1.1rem;
@@ -125,7 +116,32 @@ input{
     color: white;
 }
 
- .link{
+.navigation-eg{
+    background-color: var(--primary-color);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin:0 0 0.5rem 0;
+}
+
+.navigation-eg .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline;
+    margin:0.5rem;
+}
+
+.navigation-eg .nav-pills{
+    margin-left: auto;
+
+}
+
+.navigation-eg .link{
+    color: white;
+}
+
+.link{
      text-decoration: none;
      padding: 0.5rem 1rem;
      margin-top: 1rem;
