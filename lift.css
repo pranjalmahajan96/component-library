@@ -31,7 +31,7 @@ aside{
    margin-top: 5rem;
 }
 
-aside > link {
+aside > .link {
     color: var(--primary-color);
 }
 
