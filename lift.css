@@ -1,0 +1,443 @@
+:root{
+    --primary-color: #008c8c;
+    --grey-color: gray;
+    --green-success:  rgb(27, 170, 27);
+    --red-failed:rgb(253, 37, 37);
+    --yellow-warning:#ff9800;
+    --complimentary-color: #8c0000
+
+}
+
+body{
+    font-family: 'Montserrat', sans-serif;
+    margin: 0px
+}
+
+.index-card{
+    width: 100%;
+    height: 100%;
+    margin:10px;
+    padding: 2rem;
+}
+
+.code{
+    text-align: center;
+}
+
+aside{
+   width: 20%;
+   margin-right: 25px;
+   /* position: fixed;
+   top: 0rem;    */
+   margin-top: 5rem;
+}
+
+.link-aside {
+    color: var(--primary-color);
+    font-weight: bolder;
+}
+
+.wrapper{
+    display: flex;
+    margin-top: 5rem;
+}
+
+.wrapper-nav{
+    display: grid;
+    grid-template-columns: 1fr 4fr;
+    position:relative;
+}
+
+.wrapper-input{
+    border: 0.5px solid black;
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.center{
+    text-align: center;
+}
+
+.gray{
+    color: var(--grey-color);
+}
+
+input{
+    margin: 0.5rem;
+}
+
+.input-label{
+    display: flex;
+    flex-direction: column;
+    font-size: medium;
+    font-weight: bold;
+    margin: 0.05rem;
+}
+
+.list-non-bullet{
+    list-style: none;
+    padding-inline-start: 0px ;
+}
+
+.list-item-inline{
+    display: inline; 
+    padding: 0rem 0.5 rem;
+}
+
+.list-stacked{
+    padding: 0.25rem;
+    border: 0.5px solid black;
+}
+
+.navigation{
+    background-color: var(--primary-color);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    position: fixed;
+    top: 0rem;
+    margin:0 0 0.5rem 0;
+    z-index: 1;
+}
+
+.navigation .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline;
+    margin:0.5rem;
+}
+
+.navigation .nav-pills{
+    margin-left: auto;
+
+}
+
+.navigation .link{
+    color: white;
+}
+
+.navigation-eg{
+    background-color: var(--primary-color);
+    padding: 0.25rem;
+    display: flex;
+    align-items: center;
+    width: 100%;
+    margin:0 0 0.5rem 0;
+}
+
+.navigation-eg .nav-brand{
+    font-weight: bold;
+    font-size: 1.1rem;
+    display: inline;
+    margin:0.5rem;
+}
+
+.navigation-eg .nav-pills{
+    margin-left: auto;
+
+}
+
+.navigation-eg .link{
+    color: white;
+}
+
+.link{
+     text-decoration: none;
+     padding: 0.5rem 1rem;
+     margin-top: 1rem;
+     margin-bottom: 1rem;
+     /* color: white; */
+ }
+ .link-primary{
+     background-color: var(--red-failed);
+     border-radius: 0.5rem;
+     color: white
+
+ }
+
+ .link-secondary{
+     color: var(--red-failed);
+     border-radius: 0.5rem;
+     border: 1px solid var(--red-failed)
+ }
+
+ .link-active{
+     font-weight: bold;
+     
+ }
+
+ .row{
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.avatar{
+    /* vertical-align: middle; */
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    margin-right: 10px;
+    margin-left: 5px;
+}
+
+.size-s{
+    width: 2.5rem;
+    height: 2.5rem;     
+}
+
+.size-m{
+    width: 5rem;
+    height: 5rem;  
+}
+
+.size-l{
+    width:7.5rem;
+    height: 7.5rem;
+}
+
+.badge{
+    border: 0.5px solid red;
+    background-color: red;
+    padding: 0.3rem;
+}
+
+.badge-thumbnail{
+    position: relative;
+}
+
+.badge-icon{
+    position: absolute;
+    top:0rem;
+    right:0rem;
+}
+
+.card{
+    display: flex;
+    padding: 1rem;
+    border: 1px solid black;
+    flex-direction: column;
+   max-width: 250px;    
+}
+
+.card-shadow{
+    box-shadow: 0.5rem 0.5rem 1rem rgb(0 0 0 / 45%);
+    transition: 0.3s;
+    margin: 0.5rem;
+}
+
+.card > p{
+    flex-grow: 1;
+}
+
+.card >h1{
+    text-align: center;
+}
+
+.card .thumbnail{
+    position: relative;
+}
+
+.card-img{
+    border: 00.5px solid black;
+    width: 100%;
+}
+
+.clearBtn{
+    position: absolute;
+    top: 0rem;
+    right: 0rem;
+}
+
+.card .overlay{
+    font-weight: bolder;
+    position: absolute;
+    top: 0.5rem;
+    left: 0.5rem;
+    color: goldenrod;
+}
+
+.card .badge{
+    position: absolute;
+    top: 2rem;
+}
+
+.image-responsive{
+    max-width: 100%;
+    height: auto;
+}
+
+.image-round{
+    border-radius: 50%;
+}
+
+.alert{
+    border: 1px solid;
+    padding:0.5rem;
+    margin: 0.5rem;
+    color: whitesmoke;
+}
+
+.alert-success{
+    background-color: var(--green-success);
+}
+
+.alert-failed{
+    background-color: var(--red-failed);
+}
+
+.alert-warning{
+    background-color: var(--yellow-warning);
+}
+
+.btn{
+    margin: 0.5rem;
+    padding: 10px;
+    border:1px solid var(--primary-color);
+    border-radius: 0.25rem;
+    border-color: var(--primary-color);
+    text-decoration: none;
+    cursor: pointer;
+}
+
+.btn:hover{
+    transform: scale(1.2);
+}
+
+.btn-filled{
+    background-color: var(--primary-color);
+    color: white;
+}
+
+.btn-outline{
+    color: var(--primary-color);
+    background-color: white;
+}
+
+.btn-primary:hover{
+    transform: scale(1.1);
+}
+
+.btn-link{
+    font-size: large;
+    border: none;
+    background-color: white;
+    text-decoration: none;
+    padding: 0.5rem 1rem;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    cursor: pointer;
+}
+
+.btn-link:hover{
+    font-weight: bold;
+}
+
+.btn-no-hover:hover {
+  transform: scale(1);
+}
+
+.btn-header{
+  padding: 0.5rem;
+  margin: 0.1rem 0rem;
+}
+
+.btn-icon{
+    background-color: var(--primary-color); 
+    border: none; 
+    color: white; 
+    padding: 12px 16px; 
+    font-size: 16px; 
+    cursor: pointer
+}
+
+#myToast{
+    visibility: hidden;
+    background-color: #333;
+    color: white;
+    text-align: center;
+    padding: 16px;
+    position: fixed;
+    left: 50%;
+    bottom: 30px;
+    min-width: 250px;
+}
+
+#myToast.show{
+    visibility: visible;
+    -webkit-animation: fadein 0.5s, fadeout 0.5s 2.5s;
+  animation: fadein 0.5s, fadeout 0.5s 2.5s;
+}
+
+@-webkit-keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @keyframes fadein {
+    from {bottom: 0; opacity: 0;}
+    to {bottom: 30px; opacity: 1;}
+  }
+  
+  @-webkit-keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+  
+  @keyframes fadeout {
+    from {bottom: 30px; opacity: 1;}
+    to {bottom: 0; opacity: 0;}
+  }
+
+  .grid2{
+      display: grid;
+      grid-template-columns: 1fr 2fr;
+  }
+
+  .grid3{
+      display: grid;
+      grid-template-columns: 1fr auto auto;
+  }
+
+  .grid2-1{
+    background-color: red;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    
+  }
+
+  .grid2-2{
+    background-color: blue;
+    border: 1px solid black;
+    height: 200px;
+    width: 200px;
+    
+  }
+
+.modal{
+    display: none;
+    position: fixed;
+    z-index: 1;
+    padding-top: 100px;
+    top:100;
+    left:250;
+    margin: auto;
+}
+
+.modal-content{
+    background-color: #fefefe;
+    margin: auto;
+    padding: 50px;
+    border: 1px solid #888;
+    width: 100%;
+    margin: auto;
+}
+
+#close{
+    color: #aaaaaa;
+    float: right;
+    font-size: 28px;
+    font-weight: bold;
+}
+
